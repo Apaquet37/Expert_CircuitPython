@@ -16,7 +16,8 @@ def get_voltage(pin):
 while True:
     time.sleep(.1)
     myDial = get_voltage(dial)
-    #newVal = map_range(myDial, 0, 65536, 0, 255)
-    #data = uart.read(32)
+    #newVal = map_range(myDial, 0, 65536, 0, 255)  ---I didn't have the library needed to map, and I decided it would be easier to
+                                                      #scale the number using the math at the top
+    #data = uart.read(32)  ---Took this line out because I never used data, and it was slowing down my code a  ton
     uart.write(bytes([int(myDial)]))
     print(myDial)
