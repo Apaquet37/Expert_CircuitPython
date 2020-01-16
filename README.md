@@ -6,6 +6,12 @@ For this assignment, the goal was to get familiar with a new language and figure
 
 A helpful website: https://processing.org
 
+<img src="Media/HelloProcessingSnip.PNG" width="400"> <img src="Media/HelloProcessingSnip2.PNG" width="410">
+
 ## CircuitPython to Processing
 
+<img src="Media/CircuitPyToProcessing.png" width="400"> <img src="Media/CPProcessingSnip.PNG" width="400">
+
 ## Processing to CircuitPython
+
+<img src="Media/ProcessingToCircuitPy.png" width="500"> <img src="Media/ProcessingCPSnip.PNG" width="250">
